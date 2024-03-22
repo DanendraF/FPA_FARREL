@@ -1,0 +1,88 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PerulanganWhile",
+            "request": "launch",
+            "mainClass": "PerulanganWhile",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "buah",
+            "request": "launch",
+            "mainClass": "buah",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "ForEach",
+            "request": "launch",
+            "mainClass": "ForEach",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "LatihanBuah",
+            "request": "launch",
+            "mainClass": "LatihanBuah",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "danend",
+            "request": "launch",
+            "mainClass": "danend",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "DoWhile",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "ForTraversal",
+            "request": "launch",
+            "mainClass": "ForTraversal",
+            "projectName": "P4_35831c4c"
+        },
+        {
+            "type": "java",
+            "name": "NestedFor",
+            "request": "launch",
+            "mainClass": "NestedFor",
+            "projectName": "P4_35831c4c"
+        },
+        {
+   1         "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

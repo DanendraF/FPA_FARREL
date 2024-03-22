@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "While23523170",
+            "request": "launch",
+            "mainClass": "While23523170",
+            "projectName": "23523170_abdc51fa"
+        },
+        {
+            "type": "java",
+            "name": "ForEach23523170",
+            "request": "launch",
+            "mainClass": "ForEach23523170",
+            "projectName": "23523170_abdc51fa"
+        },
+        {
+            "type": "java",
+            "name": "SKS23523170",
+            "request": "launch",
+            "mainClass": "SKS23523170",
+            "projectName": "23523170_abdc51fa"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

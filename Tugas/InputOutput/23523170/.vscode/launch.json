@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "pembayaran",
+            "request": "launch",
+            "mainClass": "pembayaran",
+            "projectName": "23523170_3613d1b0"
+        },
+        {
+            "type": "java",
+            "name": "NomorTelepon",
+            "request": "launch",
+            "mainClass": "NomorTelepon",
+            "projectName": "23523170_3613d1b0"
+        },
+        {
+            "type": "java",
+            "name": "berbagi",
+            "request": "launch",
+            "mainClass": "berbagi",
+            "projectName": "23523170_3613d1b0"
+        },
+        {
+            "type": "java",
+            "name": "bertambah",
+            "request": "launch",
+            "mainClass": "bertambah",
+            "projectName": "23523170_3613d1b0"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

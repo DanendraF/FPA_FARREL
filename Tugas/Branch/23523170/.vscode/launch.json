@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Kelompok",
+            "request": "launch",
+            "mainClass": "Kelompok",
+            "projectName": "23523170_61c9de23"
+        },
+        {
+            "type": "java",
+            "name": "kelompok",
+            "request": "launch",
+            "mainClass": "kelompok",
+            "projectName": "23523170_61c9de23"
+        },
+        {
+            "type": "java",
+            "name": "Quiz",
+            "request": "launch",
+            "mainClass": "Quiz",
+            "projectName": "23523170_61c9de23"
+        },
+        {
+            "type": "java",
+            "name": "sk1_Makanan",
+            "request": "launch",
+            "mainClass": "sk1_Makanan",
+            "projectName": "23523170_61c9de23"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
