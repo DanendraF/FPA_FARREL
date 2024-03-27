@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "suaraBinatang",
+            "request": "launch",
+            "mainClass": "latihan.praktek1.suaraBinatang",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "tesThis",
+            "request": "launch",
+            "mainClass": "latihan.praktek2.tesThis",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "suaraBinatang",
+            "request": "launch",
+            "mainClass": "latihan.suaraBinatang",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "constructor",
+            "request": "launch",
+            "mainClass": "praktek.constructor",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "player",
+            "request": "launch",
+            "mainClass": "player",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "Raaa",
+            "request": "launch",
+            "mainClass": "Raaa",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "type": "java",
+            "name": "<unnamed_class$Raaa>",
+            "request": "launch",
+            "mainClass": "<unnamed_class$Raaa>",
+            "projectName": "OOP_7ae06d08"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
