@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Marketplace23523170.Test",
+            "projectName": "23523170_bcebfe79"
+        },
+        {
+            "type": "java",
+            "name": "SiAnak",
+            "request": "launch",
+            "mainClass": "dua.SiAnak",
+            "projectName": "23523170_bcebfe79"
+        },
+        {
+            "type": "java",
+            "name": "AksiHitung",
+            "request": "launch",
+            "mainClass": "satuB.AksiHitung",
+            "projectName": "23523170_bcebfe79"
+        },
+        {
+            "type": "java",
+            "name": "AksiHitung",
+            "request": "launch",
+            "mainClass": "AksiHitung",
+            "projectName": "23523170_bcebfe79"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
