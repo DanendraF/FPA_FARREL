@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MelebihiElemenLarik",
+            "request": "launch",
+            "mainClass": "MelebihiElemenLarik.MelebihiElemenLarik",
+            "projectName": "23523170_d0ac630f"
+        },
+        {
+            "type": "java",
+            "name": "PembagianNol",
+            "request": "launch",
+            "mainClass": "PembagianNol.PembagianNol",
+            "projectName": "23523170_d0ac630f"
+        },
+        {
+            "type": "java",
+            "name": "HanyaBisaInteger",
+            "request": "launch",
+            "mainClass": "HanyaBisaInteger.HanyaBisaInteger",
+            "projectName": "23523170_d0ac630f"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
