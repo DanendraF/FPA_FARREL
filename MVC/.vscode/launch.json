@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FXML_Ferrari",
+            "request": "launch",
+            "mainClass": "fxml_helloworld.FXML_Ferrari",
+            "projectName": "MVC_7ae06652"
+        },
+        {
+            "type": "java",
+            "name": "FXML_HelloWorld",
+            "request": "launch",
+            "mainClass": "fxml_helloworld.FXML_HelloWorld",
+            "projectName": "MVC_7ae06652"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "MVC_7ae06652"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MVC_7ae06652"
+        },
+        {
+            "type": "java",
+            "name": "Kalkulator",
+            "request": "launch",
+            "mainClass": "Kalkulator",
+            "projectName": "MVC_7ae06652"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

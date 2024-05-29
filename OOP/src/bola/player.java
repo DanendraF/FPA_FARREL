@@ -17,7 +17,7 @@ public class player {
         buatMU();
 
         for (Football bola : MU) {
-            if (bola.posisi() == "Gelandang") {
+            if (bola.posisi() == "Defender") {
                 System.out.println(bola.na() + " -> " + bola.neg());
             }
         }

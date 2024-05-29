@@ -7,6 +7,7 @@ public class Mahasiswa {
      */
     String NIM;
     String nama;
+    String kelas;
 
     /*
      * Class variabel
@@ -21,9 +22,10 @@ public class Mahasiswa {
      * Akan dipanggil ketika instansiasi objek dari class Mahasiswa
      * Konstruktor ini meng-overloading default constructor yang sudah disediakan oleh Java
      */
-    Mahasiswa(String nomorMhs, String namaMhs){
+    Mahasiswa(String nomorMhs, String namaMhs,String kelasMhs){
         NIM = nomorMhs;
         nama = namaMhs;
+        kelas = kelasMhs;
     }
     
     /*

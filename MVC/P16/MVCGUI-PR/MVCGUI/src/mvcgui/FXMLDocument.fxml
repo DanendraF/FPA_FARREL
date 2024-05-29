@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="240.0" prefWidth="224.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvcgui.FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonSamaDengan" contentDisplay="CENTER" layoutX="174.0" layoutY="116.0" onAction="#handleButtonSamaDengan" prefHeight="67.0" prefWidth="33.0" style="-fx-background-color: grey;" text="=" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+        <Label fx:id="label" layoutX="10.0" layoutY="16.0" minHeight="16" minWidth="69" />
+      <Button fx:id="buttonSatu" contentDisplay="CENTER" layoutX="24.0" layoutY="76.0" onAction="#handleButtonSatu" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="1" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonTiga" contentDisplay="CENTER" layoutX="124.0" layoutY="76.0" onAction="#handleButtonTiga" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="3" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonDua" contentDisplay="CENTER" layoutX="74.0" layoutY="76.0" onAction="#handleButtonDua" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="2" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonKurang" contentDisplay="CENTER" layoutX="24.0" layoutY="196.0" onAction="#handleButtonKurang" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="-" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonPlus" contentDisplay="CENTER" layoutX="74.0" layoutY="196.0" onAction="#handleButtonPlus" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="+" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <TextField fx:id="textFieldHasil" editable="false" layoutX="24.0" layoutY="32.0" prefHeight="27.0" prefWidth="148.0" />
+      <Button fx:id="buttonHapus" layoutX="176.0" layoutY="32.0" onAction="#handleButtonClear" prefWidth="27.0" style="-fx-background-color: grey;" text="C" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEmpat" contentDisplay="CENTER" layoutX="24.0" layoutY="116.0" onAction="#handleButtonEmpat" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="4" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonEnam" contentDisplay="CENTER" layoutX="124.0" layoutY="116.0" onAction="#handleButtonEnam" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="6" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonLima" contentDisplay="CENTER" layoutX="74.0" layoutY="116.0" onAction="#handleButtonLima" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="5" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonTujuh" contentDisplay="CENTER" layoutX="24.0" layoutY="156.0" onAction="#handleButtonTujuh" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="7" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonSembilan" contentDisplay="CENTER" layoutX="124.0" layoutY="156.0" onAction="#handleButtonSembilan" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="9" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonDelapan" contentDisplay="CENTER" layoutX="74.0" layoutY="156.0" onAction="#handleButtonDelapan" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="8" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonKali" contentDisplay="CENTER" layoutX="124.0" layoutY="196.0" onAction="#handleButtonKali" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="x" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonBagi" contentDisplay="CENTER" layoutX="174.0" layoutY="196.0" onAction="#handleButtonBagi" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="/" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Button fx:id="buttonNol" layoutX="174.0" layoutY="76.0" onAction="#handleButtonNol" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: grey;" text="0" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="2.0" prefHeight="13.0" prefWidth="67.0" text="DnCalculator">
+         <font>
+            <Font name="Comic Sans MS Italic" size="11.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

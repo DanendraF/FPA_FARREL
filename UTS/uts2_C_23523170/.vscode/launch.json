@@ -1,0 +1,88 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "c_App170",
+            "request": "launch",
+            "mainClass": "c170_app.c_App170",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "c_App170",
+            "request": "launch",
+            "mainClass": "c_App170",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "MenuView",
+            "request": "launch",
+            "mainClass": "Menu.MenuView",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "FoodMenu",
+            "request": "launch",
+            "mainClass": "FoodMenu",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "RestaurantMenu",
+            "request": "launch",
+            "mainClass": "RestaurantMenu",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "type": "java",
+            "name": "App170",
+            "request": "launch",
+            "mainClass": "App170",
+            "projectName": "uts2_C_23523170_e459dcf"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
