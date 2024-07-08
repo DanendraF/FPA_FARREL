@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "XMLToObjectTest",
+            "request": "launch",
+            "mainClass": "XMLToObjectTest",
+            "projectName": "XStreamExample_be2464a9"
+        },
+        {
+            "type": "java",
+            "name": "XMLToObject",
+            "request": "launch",
+            "mainClass": "XMLToObject",
+            "projectName": "XStreamExample_be2464a9"
+        },
+        {
+            "type": "java",
+            "name": "ObjectToXML",
+            "request": "launch",
+            "mainClass": "ObjectToXML",
+            "projectName": "XStreamExample_be2464a9"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

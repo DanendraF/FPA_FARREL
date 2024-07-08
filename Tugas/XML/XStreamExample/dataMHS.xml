@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Mahasiswa>
+    <nim>23523170</nim>
+    <firstName>Danendra</firstName>
+    <lastName>Adriansyah</lastName>
+    <className>FPA</className>
+    <address>
+        <area>Griya Karen Indah 1</area>
+        <city>Sokaraja</city>
+        <state>Purwokerto</state>
+        <country>Indonesia</country>
+        <zipcode>53181</zipcode>
+    </address>
+</Mahasiswa>

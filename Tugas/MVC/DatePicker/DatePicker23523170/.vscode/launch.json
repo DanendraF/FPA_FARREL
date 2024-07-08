@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FXML_HelloWorld",
+            "request": "launch",
+            "mainClass": "fxml_helloworld.FXML_HelloWorld",
+            "projectName": "DatePicker23523170_76821790"
+        },
+        {
+            "type": "java",
+            "name": "FXML_HelloWorld",
+            "request": "launch",
+            "mainClass": "fxml_helloworld.FXML_HelloWorld",
+            "projectName": "DatePicker23523170_f05a702e"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

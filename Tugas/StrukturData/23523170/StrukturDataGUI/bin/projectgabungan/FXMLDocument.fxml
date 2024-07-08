@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="409.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectgabungan.FXMLDocumentController">
+   <children>
+      <BorderPane fx:id="mainPane" layoutX="72.0" layoutY="56.0" prefHeight="409.0" prefWidth="584.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="409.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#keHalaman1" prefHeight="39.0" prefWidth="138.0" text="ArrayList">
+                     <VBox.margin>
+                        <Insets left="10.0" top="100.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#keHalaman2" prefHeight="39.0" prefWidth="138.0" text="LinkedList">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#keHalaman3" prefHeight="39.0" prefWidth="138.0" text="Stack">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#keHalaman4" prefHeight="40.0" prefWidth="136.0" text="Queue">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <TextArea prefHeight="200.0" prefWidth="200.0" text="&#10;&#10;&#10;&#10;&#10;Untuk dapat mengakses halaman lain, &#10;klik menu sebelah kiri." BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Regular" size="20.0" />
+               </font>
+            </TextArea>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

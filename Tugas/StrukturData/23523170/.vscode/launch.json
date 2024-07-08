@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProjectGabungan",
+            "request": "launch",
+            "mainClass": "projectgabungan.ProjectGabungan",
+            "projectName": "23523170_16a78051"
+        },
+        {
+            "type": "java",
+            "name": "ProjectQueue",
+            "request": "launch",
+            "mainClass": "projectqueue.ProjectQueue",
+            "projectName": "23523170_16a78051"
+        },
+        {
+            "type": "java",
+            "name": "ProjectLinkedList",
+            "request": "launch",
+            "mainClass": "projectlinkedlist.ProjectLinkedList",
+            "projectName": "23523170_16a78051"
+        },
+        {
+            "type": "java",
+            "name": "ProjectArrayList",
+            "request": "launch",
+            "mainClass": "projectarraylist.ProjectArrayList",
+            "projectName": "23523170_16a78051"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

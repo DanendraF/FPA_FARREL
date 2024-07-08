@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="547.0" prefWidth="596.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="fxml_helloworld.FXMLDocumentController">
+    <children>
+        <Button fx:id="DeleteB1" layoutX="486.0" layoutY="496.0" onAction="#handleButtonDAction" text="Delete" />
+        <Label fx:id="label" layoutX="219.0" layoutY="177.0" minHeight="16" minWidth="69" />
+      <LineChart fx:id="Tfwindow" layoutX="42.0" layoutY="14.0" prefHeight="481.0" prefWidth="492.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis prefWidth="27.0" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="addB1" layoutX="90.0" layoutY="496.0" onAction="#handleButtonTAction" text="Add" />
+    </children>
+</AnchorPane>
